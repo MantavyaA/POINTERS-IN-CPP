@@ -1,37 +1,44 @@
 # POINTERS-IN-CPP
 
-AIM : POINTERS IN C++
+/*
+================================================================================
+                                  AIM : POINTERS IN C++
+================================================================================
 
-SOFTWARE USED : VS CODE 
+SOFTWARE USED : VS CODE
 
-THEORY : 
+THEORY :
+
 General Theory on Pointers in C++
-A pointer is a special variable used to store the memory address of another variable. In C++, pointers are widely used for direct memory access, dynamic memory allocation, and efficient handling of arrays and strings.
+A pointer is a special variable used to store the memory address of another variable. 
+In C++, pointers are widely used for direct memory access, dynamic memory allocation, 
+and efficient handling of arrays and strings.
 
 1. Pointer Basics
+-----------------
 A pointer is declared by placing an asterisk (*) before the variable name.
 Example:
 
-cpp
-Copy
-Edit
-int a = 10;
-int* ptr = &a; // ptr stores the address of a
-The address-of operator (&) gives the address of a variable.
+    int a = 10;
+    int* ptr = &a; // ptr stores the address of a
 
+The address-of operator (&) gives the address of a variable.
 The dereference operator (*) accesses the value stored at the address held by the pointer.
 
 2. Pointer Arithmetic
+---------------------
 Pointers can be incremented and decremented.
 When incremented (ptr++), the pointer moves to the next memory location of its data type:
 
-For int* → moves by 4 bytes (on most systems)
-
-For double* → moves by 8 bytes
-
-For char* → moves by 1 byte
+    For int*    → moves by 4 bytes (on most systems)
+    For double* → moves by 8 bytes
+    For char*   → moves by 1 byte
 
 This allows traversal of arrays without using indexing.
+
+================================================================================
+*/
+
 
 3. Pointers and Arrays
 The name of an array acts like a pointer to its first element.
