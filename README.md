@@ -6,7 +6,7 @@
 
 ## SOFTWARE USED : VS CODE
 
-## THEORY
+## THEORY :
 
 General Theory on Pointers in C++  
 A pointer is a special variable used to store the memory address of another variable.  
